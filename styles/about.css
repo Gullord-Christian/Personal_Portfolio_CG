@@ -1,0 +1,30 @@
+.custom-shape-divider-top-1664048862 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+	margin-top: 80px;
+	z-index: -1;
+}
+
+.custom-shape-divider-top-1664048862 svg {
+	position: relative;
+	display: block;
+	width: calc(300% + 1.3px);
+	height: 300px;
+	transform: rotateY(180deg);
+	z-index: -1;
+}
+
+.custom-shape-divider-top-1664048862 .shape-fill {
+	fill: #008b8b;
+	z-index: -1;
+}
+
+.layer1 {
+	background-image: url("../public/static/images/blob-haikei.svg");
+	background-repeat: no-repeat;
+}
