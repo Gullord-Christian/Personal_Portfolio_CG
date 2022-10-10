@@ -3,6 +3,7 @@ import HouseHunterImg from "../public/static/projects/house-hunter-3.png";
 import GrandExchange from "../public/static/projects/grand-exchange-1.png";
 import MovieDBImg from "../public/static/projects/MovieDB.png";
 import ProjectDetail from "./ProjectDetail";
+import CryptoImg from "../public/static/projects/crypto-app-1.png";
 
 const Projects = () => {
 	return (
@@ -32,6 +33,13 @@ const Projects = () => {
 						backgroundImg={GrandExchange}
 						projectUrl="/grand-exchange"
 						techs="ReactJs | NextJs | Stripe | Sanity"
+					/>
+
+					<ProjectDetail
+						title="Crypto Press"
+						backgroundImg={CryptoImg}
+						projectUrl="/crypto-app"
+						techs="ReactJs | Tailwind CSS | Firebase"
 					/>
 				</div>
 			</div>
