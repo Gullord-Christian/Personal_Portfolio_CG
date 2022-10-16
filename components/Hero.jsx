@@ -42,8 +42,9 @@ const Hero = () => {
 						<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 hover:text-[#008B8B]">
 								<Link
-									target="_blank"
-									href="https://www.linkedin.com/in/christian-gullord-52622a13b/">
+									rel="noreferrer"
+									href="https://www.linkedin.com/in/christiangullord/"
+									target="_blank">
 									<FaLinkedinIn />
 								</Link>
 							</div>

@@ -21,7 +21,8 @@ const Navbar = () => {
 			router.asPath === "/house-hunter" ||
 			router.asPath === "/movie-db" ||
 			router.asPath === "/grand-exchange" ||
-			router.asPath === "/crypto-app"
+			router.asPath === "/crypto-app" ||
+			router.asPath === "/film-buff"
 		) {
 			setBgNav("transparent");
 			setLinkColor("#ecf0f3");

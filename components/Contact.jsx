@@ -38,7 +38,7 @@ const Contact = () => {
 										<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
 											<Link
 												target="_blank"
-												href="https://www.linkedin.com/in/christian-gullord-52622a13b/">
+												href="https://www.linkedin.com/in/christiangullord/">
 												<FaLinkedinIn />
 											</Link>
 										</div>

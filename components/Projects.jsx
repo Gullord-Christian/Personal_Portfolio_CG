@@ -4,6 +4,7 @@ import GrandExchange from "../public/static/projects/grand-exchange-1.png";
 import MovieDBImg from "../public/static/projects/MovieDB.png";
 import ProjectDetail from "./ProjectDetail";
 import CryptoImg from "../public/static/projects/crypto-app-1.png";
+import FilmImg from "../public/static/projects/film-buff-1.png";
 
 const Projects = () => {
 	return (
@@ -39,6 +40,13 @@ const Projects = () => {
 						title="Crypto Press"
 						backgroundImg={CryptoImg}
 						projectUrl="/crypto-app"
+						techs="ReactJs | Tailwind CSS | Firebase"
+					/>
+
+					<ProjectDetail
+						title="FilmBuff"
+						backgroundImg={FilmImg}
+						projectUrl="/film-buff"
 						techs="ReactJs | Tailwind CSS | Firebase"
 					/>
 				</div>
