@@ -4,7 +4,7 @@ import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const nbaJam = () => {
+const grand = () => {
 	return (
 		<div className="w-full">
 			<div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -80,4 +80,4 @@ const nbaJam = () => {
 	);
 };
 
-export default nbaJam;
+export default grand;
