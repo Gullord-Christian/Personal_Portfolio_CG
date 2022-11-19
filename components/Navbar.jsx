@@ -30,7 +30,7 @@ const Navbar = () => {
 		} else {
 			setBgNav("#FDF5E6");
 			setLinkColor("#1f2937");
-			setMyLogo("80px");
+			setMyLogo("75px");
 		}
 	}, [router]);
 
@@ -54,15 +54,15 @@ const Navbar = () => {
 			style={{ backgroundColor: `${bgNav}` }}
 			className={
 				shadow
-					? "fixed w-full h-20 shadow-xl z-[100]"
-					: "fixed w-full h-20 z-[100]"
+					? "fixed w-full h-[100px] shadow-xl z-[100]"
+					: "fixed w-full h-[100px] z-[100]"
 			}>
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 cursor-pointer">
 				<Link href="/">
 					<div>
 						<img
 							style={{ height: `${myLogo}`, width: `${myLogo}` }}
-							src={"/static/images/CG.png"}
+							src={"/static/images/home.svg"}
 						/>
 					</div>
 				</Link>

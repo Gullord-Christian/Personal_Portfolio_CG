@@ -25,7 +25,7 @@ const Contact = () => {
 							</div>
 							<div>
 								<h2 className="py-4">Christian Gullord</h2>
-								<p>Full-Stack Developer</p>
+								<p>Software Developer</p>
 								<p className="py-4">
 									I am currently seeking a full-time position as a
 									full-stack, front-end or back-end developer.
@@ -87,7 +87,7 @@ const Contact = () => {
 										</label>
 										<input
 											className="border-2 rounded-lg p-3 flex border-gray"
-											type="number"
+											type="tel"
 										/>
 									</div>
 								</div>
