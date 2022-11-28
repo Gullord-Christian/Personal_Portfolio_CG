@@ -19,7 +19,7 @@ const Hero = () => {
 				</svg>
 			</div>
 			<div id="hero" className="w-full h-[80vh] text-center">
-				<div className="max-w-[1240px] w-full h-[90%] mx-auto p-2 flex justify-center items-center ">
+				<div className="max-w-[1240px] w-full h-[100%] mx-auto p-2 flex justify-center items-center ">
 					<div className="mt-[200px] md:mt-[50px]">
 						<h1 className="py-4 text-gray-800">
 							Hi, I&apos;m{" "}

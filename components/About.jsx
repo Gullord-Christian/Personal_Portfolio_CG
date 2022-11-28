@@ -7,7 +7,7 @@ const About = () => {
 		<div>
 			<div className="w-[75%] h-[65%] lg:w-[50%] m-auto shadow-xl shadow-gray-400 rounded-xl items-center hover:scale-105 align-center ease-in duration-300">
 				<img
-					className="rounded-xl w-[100%] mt-4"
+					className="rounded-xl w-[100%] md:mt-0 mt-6"
 					src={"/static/images/unsplash-tech-2.jpg"}
 					alt="laptop"
 				/>
