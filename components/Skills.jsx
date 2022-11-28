@@ -21,7 +21,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>Python</h2>
+								<h3 className="text-[22px]">Python</h3>
 							</div>
 						</div>
 					</div>
@@ -37,7 +37,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>Java</h2>
+								<h3 className="text-[22px]">Java</h3>
 							</div>
 						</div>
 					</div>
@@ -53,7 +53,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>React Js</h2>
+								<h3 className="text-[22px]">React Js</h3>
 							</div>
 						</div>
 					</div>
@@ -69,7 +69,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>Spring</h2>
+								<h3 className="text-[22px]">Spring</h3>
 							</div>
 						</div>
 					</div>
@@ -84,7 +84,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>Javascript</h2>
+								<h3 className="text-[22px]">Javascript</h3>
 							</div>
 						</div>
 					</div>
@@ -100,7 +100,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>HTML</h2>
+								<h3 className="text-[22px]">HTML</h3>
 							</div>
 						</div>
 					</div>
@@ -116,7 +116,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>Next Js</h2>
+								<h3 className="text-[22px]">Next Js</h3>
 							</div>
 						</div>
 					</div>
@@ -132,7 +132,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>Node Js</h2>
+								<h3 className="text-[22px]">Node Js</h3>
 							</div>
 						</div>
 					</div>
@@ -148,7 +148,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>Tailwind CSS</h2>
+								<h3 className="text-[22px]">Tailwind CSS</h3>
 							</div>
 						</div>
 					</div>
@@ -164,7 +164,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>Bootstrap</h2>
+								<h3 className="text-[22px]">Bootstrap</h3>
 							</div>
 						</div>
 					</div>
@@ -179,7 +179,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>My SQL</h2>
+								<h3 className="text-[22px]">My SQL</h3>
 							</div>
 						</div>
 					</div>
@@ -195,7 +195,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h2>Mongo DB</h2>
+								<h3 className="text-[22px]">Mongo DB</h3>
 							</div>
 						</div>
 					</div>
