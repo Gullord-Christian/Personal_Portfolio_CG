@@ -33,11 +33,11 @@ const Hero = () => {
 						</h2>
 						<p className="py-4 text-gray-600 max-w-[70%] m-auto">
 							I&apos;m a full-stack developer who loves to build fully
-							functional web applications. I&apos;ve recently graduated
-							from a software development bootcamp and my goal is to
-							make an impact at a great company by building real-world
-							applications for real people. I&apos;ve recently started
-							to shift my focus towards mobile-first development.
+							functional web applications. I enjoy working with
+							back-end and front-end technologies. My goal is to make
+							an impact by building real-world applications for real
+							people. I&apos;ve recently started to shift my focus
+							towards mobile-first development.
 						</p>
 						<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 hover:text-[#008B8B]">
@@ -70,7 +70,7 @@ const Hero = () => {
 								</Link>
 							</div>
 						</div>
-						<p className="uppercase text-lg tracking-widest text-gray-800 py-4">
+						<p className="uppercase text-xl tracking-widest text-gray-800 py-4">
 							Let&apos;s Connect{" "}
 						</p>
 					</div>

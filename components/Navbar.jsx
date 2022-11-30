@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-import { GiAbstract061, GiAbstract112 } from "react-icons/gi";
+import { GiAbstract061 } from "react-icons/gi";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
 		} else {
 			setBgNav("#FDF5E6");
 			setLinkColor("#1f2937");
-			setMyLogo("75px");
+			setMyLogo("100px");
 		}
 	}, [router]);
 
@@ -62,7 +62,7 @@ const Navbar = () => {
 					<div>
 						<img
 							style={{ height: `${myLogo}`, width: `${myLogo}` }}
-							src={"/static/images/home.svg"}
+							src={"/static/images/cg-logo-5.png"}
 						/>
 					</div>
 				</Link>
@@ -123,7 +123,7 @@ const Navbar = () => {
 							</Link>
 							<div
 								onClick={handleNav}
-								className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
+								className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:text-[#008B8B]">
 								<AiOutlineClose />
 							</div>
 						</div>
@@ -173,7 +173,7 @@ const Navbar = () => {
 								</Link>
 							</ul>
 							<div className="pt-40">
-								<p className="uppercase tracking-widest text-[#008B8B]">
+								<p className="uppercase tracking-widest text-[#008B8B] text-center">
 									Let&apos;s Connect
 								</p>
 								<div className="flex items-center justify-between my-4 w-full sm:w-[80%]">

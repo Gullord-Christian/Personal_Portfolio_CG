@@ -5,7 +5,7 @@ import Link from "next/link";
 const About = () => {
 	return (
 		<div>
-			<div className="w-[75%] h-[65%] lg:w-[50%] m-auto shadow-xl shadow-gray-400 rounded-xl items-center hover:scale-105 align-center ease-in duration-300">
+			<div className="w-[75%] h-[65%] lg:w-[75%] m-auto shadow-xl shadow-gray-400 rounded-xl items-center hover:scale-105 align-center ease-in duration-300">
 				<img
 					className="rounded-xl w-[100%] md:mt-0 mt-6"
 					src={"/static/images/unsplash-tech-2.jpg"}
@@ -23,11 +23,11 @@ const About = () => {
 						<p className="py-2 text-gray-600">
 							I&apos;ve spent the last 10 years working in the
 							hospitality industry. From working in the Wine &
-							Restaurant Industry in my hometown of Napa Valley, CA.
-							Living and working in the Sierra Nevada Mountain Range in
-							Lake Tahoe, CA. Most recently enjoying the beach life
-							while working at boutique and large resort properties in
-							my new home of San Diego, CA.
+							Restaurant Industry in my hometown of Napa Valley. Living
+							and working in the Sierra Nevada Mountain Range in Lake
+							Tahoe. Most recently enjoying the beach life while
+							working at boutique and large resort properties in San
+							Diego.
 						</p>{" "}
 						<p className="py-2 text-gray-600">
 							I&apos;ve always been interested in technology, computer

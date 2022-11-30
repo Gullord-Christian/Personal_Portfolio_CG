@@ -10,23 +10,16 @@ const Projects = () => {
 	return (
 		<div id="projects" className="w-full">
 			<div className="max-w-[1240px] mx-auto ox-2 py-16">
-				<p className="text-xl tracking-widest uppercase text-[#008B8B]">
+				<p className="text-xl tracking-widest ml-2 uppercase text-[#008B8B]">
 					Projects
 				</p>
 				<h2 className="py-4">What I&apos;ve Built</h2>
 				<div className="grid md:grid-cols-2 gap-8">
 					<ProjectDetail
-						title="House Hunter"
-						backgroundImg={HouseHunterImg}
-						projectUrl="/house-hunter"
-						techs="Java | Spring | MySQL"
-					/>
-
-					<ProjectDetail
-						title="Movie DB"
-						backgroundImg={MovieDBImg}
-						projectUrl="/movie-db"
-						techs="Python | Flask | MySQL"
+						title="FilmBuff"
+						backgroundImg={FilmImg}
+						projectUrl="/film-buff"
+						techs="ReactJs | Tailwind CSS | Firebase"
 					/>
 
 					<ProjectDetail
@@ -42,12 +35,18 @@ const Projects = () => {
 						projectUrl="/crypto-app"
 						techs="ReactJs | Tailwind CSS | Firebase"
 					/>
+					<ProjectDetail
+						title="House Hunter"
+						backgroundImg={HouseHunterImg}
+						projectUrl="/house-hunter"
+						techs="Java | Spring | MySQL"
+					/>
 
 					<ProjectDetail
-						title="FilmBuff"
-						backgroundImg={FilmImg}
-						projectUrl="/film-buff"
-						techs="ReactJs | Tailwind CSS | Firebase"
+						title="Movie DB"
+						backgroundImg={MovieDBImg}
+						projectUrl="/movie-db"
+						techs="Python | Flask | MySQL"
 					/>
 				</div>
 			</div>
