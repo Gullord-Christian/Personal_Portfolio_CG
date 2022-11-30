@@ -246,7 +246,7 @@ const Contact = () => {
 										{errors?.message?.message}
 									</span>
 								</div>
-								<button className="w-full p-4 text-gray-100 mt-10 ">
+								<button className="w-full p-4 text-gray-100 mt-10 hover:ring-2">
 									Send Message
 								</button>
 							</form>

@@ -1,12 +1,13 @@
 import React from "react";
+
 import Link from "next/link";
 
 const About = () => {
 	return (
 		<div>
-			<div className="w-[75%] h-[65%] lg:w-[75%] m-auto shadow-xl shadow-gray-400 rounded-xl items-center hover:scale-105 align-center ease-in duration-300">
+			<div className="w-[75%] h-[65%] lg:w-[65%] m-auto shadow-xl shadow-gray-400 rounded-xl items-center hover:scale-105 align-center ease-in duration-300">
 				<img
-					className="rounded-xl max-w-[85%] md:mt-0 mt-6"
+					className="rounded-xl w-full md:mt-0 mt-6"
 					src={"/static/images/unsplash-tech-2.jpg"}
 					alt="laptop"
 				/>

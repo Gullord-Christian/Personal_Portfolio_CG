@@ -67,7 +67,7 @@ const Hero = () => {
 								</Link>
 							</div>
 						</div>
-						<p className="uppercase text-xl tracking-widest text-gray-800">
+						<p className="uppercase text-xl tracking-widest text-gray-800 invisible md:visible">
 							Let&apos;s Connect{" "}
 						</p>
 					</div>
