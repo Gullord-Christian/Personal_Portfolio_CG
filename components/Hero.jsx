@@ -20,7 +20,7 @@ const Hero = () => {
 			</div>
 			<div id="hero" className="w-full h-[80vh] text-center">
 				<div className="max-w-[1240px] w-full h-[100%] mx-auto p-2 flex justify-center items-center ">
-					<div className="mt-[200px] md:mt-[50px]">
+					<div className="mt-[150px] md:mt-[50px]">
 						<h1 className="py-4 text-gray-800">
 							Hi, I&apos;m{" "}
 							<span className="md:text-[#008B8B]"> Christian</span>
@@ -70,7 +70,7 @@ const Hero = () => {
 								</Link>
 							</div>
 						</div>
-						<p className="uppercase text-xl tracking-widest text-gray-800 py-4">
+						<p className="uppercase text-xl tracking-widest text-gray-800">
 							Let&apos;s Connect{" "}
 						</p>
 					</div>

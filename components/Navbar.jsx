@@ -30,7 +30,7 @@ const Navbar = () => {
 		} else {
 			setBgNav("#FDF5E6");
 			setLinkColor("#1f2937");
-			setMyLogo("100px");
+			setMyLogo("90px");
 		}
 	}, [router]);
 
@@ -116,10 +116,7 @@ const Navbar = () => {
 					<div>
 						<div className="flex w-full items-center justify-between">
 							<Link href="/">
-								<GiAbstract061
-									onClick={() => setNav(false)}
-									size={65}
-								/>
+								<GiAbstract061 size={65} />
 							</Link>
 							<div
 								onClick={handleNav}
@@ -172,7 +169,7 @@ const Navbar = () => {
 									</li>
 								</Link>
 							</ul>
-							<div className="pt-40">
+							<div className="pt-20">
 								<p className="uppercase tracking-widest text-[#008B8B] text-center">
 									Let&apos;s Connect
 								</p>

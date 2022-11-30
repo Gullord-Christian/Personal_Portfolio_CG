@@ -54,27 +54,28 @@ const Contact = () => {
 					Contact
 				</p>
 				<h2 className="py-4">Get In Touch</h2>
-				<div className="grid lg:grid-cols-5 gap-8">
-					<div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 ">
+				<div className="grid md:grid-cols-5 gap-6">
+					<div className="col-span-3 md:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 ">
 						<div className="lg:p-4 h-full">
-							<div>
+							<div className="flex">
 								<img
-									className="rounded-xl hover:scale-105 ease-in duration-300"
-									// src="https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-									src={"/static/images/profile-pic.jpg"}
+									className="rounded-xl hover:scale-105 ease-in duration-300 md:w-[75%] md:h-[75%] md:mx-auto lg:h-full lg:w-full h-[85%] w-[85%] mx-auto "
+									src={"/static/images/profile-pic-4.jpg"}
 									alt="contact"
 								/>
 							</div>
 							<div>
-								<h2 className="py-4">Christian Gullord</h2>
+								<h2 className="py-4 sm:text-3xl text-xl">
+									Christian Gullord
+								</h2>
 								<p>Software Developer</p>
 								<p className="py-4">
-									I am currently seeking a full-time position as a
-									full-stack, front-end or back-end developer.
+									I am currently seeking a full-stack, front-end or
+									back-end developer role.
 								</p>
 							</div>
 							<div>
-								<p className="uppercase p-8 text-center text-[#2c5074]">
+								<p className="uppercase pt-8 pb-4 text-center text-[#2c5074] font-semibold text-base">
 									Connect with me
 								</p>
 								<div>
@@ -245,7 +246,7 @@ const Contact = () => {
 										{errors?.message?.message}
 									</span>
 								</div>
-								<button className="w-full p-4 text-gray-100 mt-10 hover:ring-2">
+								<button className="w-full p-4 text-gray-100 mt-10 ">
 									Send Message
 								</button>
 							</form>
