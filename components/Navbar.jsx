@@ -62,7 +62,7 @@ const Navbar = () => {
 					<div>
 						<img
 							style={{ height: `${myLogo}`, width: `${myLogo}` }}
-							src={"/static/images/cg-logo-5.png"}
+							src={"/static/images/CG-Logo-5.png"}
 						/>
 					</div>
 				</Link>

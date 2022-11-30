@@ -20,16 +20,13 @@ const Hero = () => {
 			</div>
 			<div id="hero" className="w-full h-[80vh] text-center">
 				<div className="max-w-[1240px] w-full h-[100%] mx-auto p-2 flex justify-center items-center ">
-					<div className="mt-[150px] md:mt-[50px]">
+					<div className="mt-[200px] md:mt-[50px]">
 						<h1 className="py-4 text-gray-800">
-							Hi, I&apos;m{" "}
-							<span className="md:text-[#008B8B]"> Christian</span>
+							Hi, I&apos;m Christian
 						</h1>
 						<h2 className="py-2 text-gray-800">
 							Software{" "}
-							<span className="text-[#008b8b] md:text-[#212831] ">
-								Developer
-							</span>
+							<span className="text-[#008b8b]">Developer</span>
 						</h2>
 						<p className="py-4 text-gray-600 max-w-[70%] m-auto">
 							I&apos;m a full-stack developer who loves to build fully
