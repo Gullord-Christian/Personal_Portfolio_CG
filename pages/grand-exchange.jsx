@@ -32,6 +32,10 @@ const grand = () => {
 						Users can purchaes items directly with Stripe, implemented
 						back-end with Sanity for ease of use.
 					</p>
+					<br />
+					<p className="font-semibold">Test Credentials for Stripe:</p>
+					<p>Card number: 4242 4242 4242 4242</p>
+					<p>CVV: 424</p>
 					<Link
 						target="_blank"
 						rel="noopener noreferrer"

@@ -32,6 +32,10 @@ const crypto = () => {
 						details and user favorited coins. Tailwind CSS used to design
 						application with a mobile first approach.
 					</p>
+					<br />
+					<p className="font-semibold">Test Credentials:</p>
+					<p>Email: Test@gmail.com</p>
+					<p>Password: Pass123456</p>
 					<Link
 						target="_blank"
 						rel="noopener noreferrer"
@@ -47,7 +51,9 @@ const crypto = () => {
 				</div>
 				<div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
 					<div className="p-2">
-						<p className="text-center font-bold pb-2">Technologies</p>
+						<p className="text-center font-bold pb-2 mt-6">
+							Technologies
+						</p>
 						<div className="grid grid-cols-3 md:grid-cols-1">
 							<p className="text-gray-600 py-2 flex items-center">
 								<RiRadioButtonFill className="pr-1" />

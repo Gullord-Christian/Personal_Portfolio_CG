@@ -36,6 +36,10 @@ const houseHunter = () => {
 						Agents can register an account, login, and add listings to
 						the site. Agents can only edit or remove their own listings.
 					</p>
+					<br />
+					<p className="font-semibold">Test Credentials:</p>
+					<p>Email: Test@gmail.com</p>
+					<p>Password: Pass123456</p>
 					<Link
 						target="_blank"
 						rel="noopener noreferrer"
