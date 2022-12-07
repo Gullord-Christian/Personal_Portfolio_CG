@@ -20,7 +20,7 @@ const Hero = () => {
 			</div>
 			<div id="hero" className="w-full h-[80vh] text-center">
 				<div className="max-w-[1240px] w-full h-[100%] mx-auto p-2 flex justify-center items-center ">
-					<div className="mt-[200px] md:mt-[50px]">
+					<div className="mt-[100px] md:mt-[50px]">
 						<h1 className="py-4 text-gray-800">
 							Hi, I&apos;m Christian
 						</h1>
@@ -29,11 +29,14 @@ const Hero = () => {
 							<span className="text-[#008b8b]">Developer</span>
 						</h2>
 						<p className="py-4 text-gray-600 max-w-[70%] m-auto">
-							I&apos;m a full-stack developer who loves to build fully
+							I&apos;m a full-stack developer, I love to build fully
 							functional web applications. I enjoy working with
-							back-end and front-end technologies. My goal is to make
-							an impact by building real-world applications for real
-							people.
+							back-end and front-end technologies and my goal is to
+							make an impact by building real-world applications for
+							real people.
+						</p>
+						<p className="uppercase text-xl tracking-widest text-gray-800 m-4">
+							Let&apos;s Connect{" "}
 						</p>
 						<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 hover:text-[#008B8B]">
@@ -66,9 +69,6 @@ const Hero = () => {
 								</Link>
 							</div>
 						</div>
-						<p className="uppercase text-xl tracking-widest text-gray-800 invisible md:visible">
-							Let&apos;s Connect{" "}
-						</p>
 					</div>
 				</div>
 			</div>

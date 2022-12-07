@@ -5,7 +5,6 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-import { GiAbstract061 } from "react-icons/gi";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
@@ -116,7 +115,13 @@ const Navbar = () => {
 					<div>
 						<div className="flex w-full items-center justify-between">
 							<Link href="/">
-								<GiAbstract061 size={65} />
+								<img
+									src={"/static/images/CG-Logo-invert.png"}
+									style={{
+										height: `${myLogo}`,
+										width: `${myLogo}`,
+									}}
+								/>
 							</Link>
 							<div
 								onClick={handleNav}
