@@ -21,20 +21,18 @@ const About = () => {
 							About Me
 						</h2>
 						<p className="py-2 text-gray-600">
-							I&apos;ve spent the last 10 years working in the
-							hospitality industry. From working in the Wine &
-							Restaurant Industry in my hometown of Napa Valley. Living
-							and working in the Sierra Nevada Mountain Range in Lake
-							Tahoe. Most recently enjoying the beach life while
-							working at boutique and large resort properties in San
-							Diego.
+							Prior to software development, I spent the last 10 years
+							working in the hospitality industry. From working in the
+							wine & restaurant industry in my hometown of Napa Valley
+							to most recently enjoying the beach life while managing
+							and operating luxury resorts in San Diego.
 						</p>{" "}
 						<p className="py-2 text-gray-600">
-							I&apos;ve always been interested in technology, computer
-							games, video games, and really just a natural curiosity
-							about all things tech related. After taking a few
+							I&apos;ve always had an interest in computers, machines,
+							video games, and just a natural curiosity about all
+							things&apos; related to technology. While taking a few
 							introductory courses, I realized I have a passion for
-							progamming and decided to pursue a career in software
+							programming and decided to pursue a career in software
 							development.
 						</p>
 						<p className="py-2 text-gray-600 underline cursor-pointer md:block hidden">

@@ -33,8 +33,7 @@ const Hero = () => {
 							functional web applications. I enjoy working with
 							back-end and front-end technologies. My goal is to make
 							an impact by building real-world applications for real
-							people. I&apos;ve recently started to shift my focus
-							towards mobile-first development.
+							people.
 						</p>
 						<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 							<div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 hover:text-[#008B8B]">
