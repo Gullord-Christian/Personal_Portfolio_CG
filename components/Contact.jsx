@@ -66,7 +66,11 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-4 sm:text-3xl text-xl">Christian Gullord</h2>
-                <p>Software Developer</p>
+                <p>
+                  <span className="font-bold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-[#778899] to-[#2c5074]">
+                    Software Developer
+                  </span>
+                </p>
                 <p className="py-4">
                   In my current role, I am working as a full-stack developer.
                   Our stack includes PHP, Laravel, Vue.js and SQL.
