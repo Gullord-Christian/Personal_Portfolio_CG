@@ -78,7 +78,7 @@ const Contact = () => {
 								<p className="py-4">
 									In my current role, I am working as a
 									full-stack developer. Our stack includes
-									PHP, Laravel, Vue.js and SQL.
+									PHP, Laravel, React.js and SQL.
 								</p>
 							</div>
 							<div>
