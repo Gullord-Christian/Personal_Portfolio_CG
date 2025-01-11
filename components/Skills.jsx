@@ -93,14 +93,14 @@ const Skills = () => {
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
-									src="/static/skills/html.png"
+									src="/static/skills/laravel.png"
 									width="64px"
 									height="64px"
-									language="html"
+									language="laravel"
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h3 className="text-[22px]">HTML</h3>
+								<h3 className="text-[22px]">Laravel</h3>
 							</div>
 						</div>
 					</div>
