@@ -42,12 +42,12 @@ const Projects = () => {
 						techs="Java | Spring | MySQL"
 					/>
 
-					<ProjectDetail
+					{/* <ProjectDetail
 						title="Movie DB"
 						backgroundImg={MovieDBImg}
 						projectUrl="/movie-db"
 						techs="Python | Flask | MySQL"
-					/>
+					/> */}
 				</div>
 			</div>
 		</div>
