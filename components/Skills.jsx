@@ -62,14 +62,14 @@ const Skills = () => {
 						<div className="grid grid-cols-2 gap-4 justify-center items-center">
 							<div className="m-auto">
 								<Image
-									src="/static/skills/spring.png"
-									alt="Spring"
+									src="/static/skills/php.png"
+									alt="PHP"
 									width="64px"
 									height="64px"
 								/>
 							</div>
 							<div className="flex flex-col items-center justify-center">
-								<h3 className="text-[22px]">Spring</h3>
+								<h3 className="text-[22px]">PHP</h3>
 							</div>
 						</div>
 					</div>
