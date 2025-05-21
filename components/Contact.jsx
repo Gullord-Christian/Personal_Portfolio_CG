@@ -60,9 +60,7 @@ const Contact = () => {
 							<div className="flex">
 								<img
 									className="rounded-xl hover:scale-105 ease-in duration-300 md:w-[75%] md:h-[75%] md:mx-auto lg:h-full lg:w-full h-[85%] w-[85%] mx-auto "
-									src={
-										"/static/images/profile_pic_personal_portfolio_2.png"
-									}
+									src={"/static/images/2022_Christian.jpg"}
 									alt="contact"
 								/>
 							</div>
